@@ -52,7 +52,7 @@
     font-size: 15px;
 }
 
-@media only screen and (max-width: 600px) and (min-width: 400px) {
+@media only screen and (max-width: 600px) and (min-width: 300px) {
     .footer-link{
         gap: 15px;
         

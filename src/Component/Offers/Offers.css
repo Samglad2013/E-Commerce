@@ -42,7 +42,7 @@
     font-size: medium;
 }
 
-@media only screen and (max-width: 800px) and (min-width: 520px) {
+@media only screen and (max-width: 800px) and (min-width: 400px) {
     .offers-left h1{
         font-size: 55px;
     }
@@ -63,7 +63,7 @@
 }
 
 
-@media only screen and (max-width: 600px) and (min-width: 400px) {
+@media only screen and (max-width: 600px)  and (min-width:300px){
     .offers{
         display: flex;
         flex-direction: column;
