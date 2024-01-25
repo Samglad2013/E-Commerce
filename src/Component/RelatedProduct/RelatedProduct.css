@@ -33,14 +33,14 @@
 
 
 
-@media(max-width:768px){
+@media only screen and (max-width: 800px) and (min-width: 400px) {
     .related-product-item{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media(max-width: 480px){
+@media only screen and (max-width: 600px) and (min-width:300px) {
     .related-product-item{
         display: flex;
         flex-direction: column;

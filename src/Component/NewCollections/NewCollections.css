@@ -20,7 +20,7 @@
 }
 
 
-@media only screen and (max-width: 800px) and (min-width: 520px) {
+@media only screen and (max-width: 800px) and (min-width: 400px) {
     .new_collection h1{
         font-size: 50px;
     }
@@ -33,7 +33,7 @@
         padding-left:30px;
     }
 }
-@media only screen and (max-width: 600px) and (min-width: 400px) {
+@media only screen and (max-width: 600px)  and (min-width:300px) {
     .new_collection h1{
         font-size: 30px;
     }

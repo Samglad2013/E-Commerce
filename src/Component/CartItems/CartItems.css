@@ -84,14 +84,14 @@ width: 40%;
 }
 
 
-@media only screen and (max-width: 800px) and (min-width: 520px) {
+@media only screen and (max-width: 800px) and (min-width: 400px) {
      .cart-items-bottom{
         display: flex;
         gap: 60px;
      }
 }
 
-@media only screen and (max-width: 600px) and (min-width: 400px) {
+@media only screen and (max-width: 600px) and (min-width: 300px) {
     .cart-items-main{
         display: grid;
         grid-template-columns:repeat 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr ;

@@ -45,7 +45,7 @@
     justify-content:flex-end;
 }
 
-@media only screen and (max-width: 800px) and (min-width: 520px) {
+@media only screen and (max-width: 800px) and (min-width: 400px) {
     .info{
         display: flex;
         margin: 0px;
@@ -57,7 +57,7 @@
     }
 }
 
-@media only screen and (max-width: 600px) and (min-width: 400px) {
+@media only screen and (max-width: 600px) and (min-width: 300px) {
    .info{
     display: flex;
     flex-direction: column;

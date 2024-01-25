@@ -66,13 +66,13 @@
     font-size: 14px;
 }
 
-@media only screen and (max-width: 800px) and (min-width: 520px) {
+@media only screen and (max-width: 800px) and (min-width: 400px) {
     .login{
         height: 60vh;
     }
 }
 
-@media only screen and (max-width: 600px) and (min-width: 400px) {
+@media only screen and (max-width: 600px) and (min-width: 300px) {
     .login{
         height: 65vh;
     }
