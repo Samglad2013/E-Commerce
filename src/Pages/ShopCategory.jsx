@@ -1,4 +1,4 @@
-import "./CSS/ShopCategory.css";
+
 import Item from "../Component/Item/Item";
 import dropdown_icon from "../Component/Assest/dropdown_icon.png";
 import all_product from "../Component/Assest/all_product";
@@ -6,7 +6,7 @@ const ShopCategory = (props) => {
   return (
     <div className="container">
       <div className="shopCategory">
-        <img src={props.banner} alt="" />
+        <img className="banner" src={props.banner} alt="" />
         <div className="shopCategory-indexSort">
           <p>
             <span>showing 1-12</span> out of 36

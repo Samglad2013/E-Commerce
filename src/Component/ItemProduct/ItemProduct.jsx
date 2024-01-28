@@ -1,6 +1,5 @@
 import React from "react";
 import Item from "../Item/Item";
-import "./ItemProduct.css";
 import data_product from "../Assest/data";
 const ItemProduct = () => {
   return (
@@ -11,7 +10,7 @@ const ItemProduct = () => {
         <div className="item-products">
           {data_product.map((item, index) => {
             return (
-              <Item
+                <Item
                 key={index}
                 id={item.id}
                 name={item.name}

@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import { ShopContext } from "../../Context/ShopContext";
 import remove_icon from "../Assest/cart_cross_icon.png";
-import "./CartItems.css";
 
 const CartItems = () => {
   const { getCartTotal, all_product, cartItems, removeFromCart } =
@@ -25,9 +24,9 @@ const CartItems = () => {
               <div key={e.id} className="cart-items-format cart-items-main">
                 <img className="item-image" src={e.image} alt={e.name} />
                 <p>{e.name}</p>
-                <p>{e.new_price}</p>
-                <button className="cart-items-icon">{cartItems[e.id]}</button>
-                <p>{e.new_price * cartItems[e.id]}</p>
+                <p>${e.new_price}</p>
+                <button className="cart-items-button">{cartItems[e.id]}</button>
+                <p>${e.new_price * cartItems[e.id]}</p>
                 <img
                   src={remove_icon}
                   alt=""
@@ -47,7 +46,7 @@ const CartItems = () => {
           <h2>Cart Total</h2>
           <div className="total sub-total">
             <p>Subtotal</p>
-            <p>{getCartTotal()}</p>
+            <p>${getCartTotal()}</p>
           </div>
           <hr />
           <div className=" total shipping-details">
@@ -57,7 +56,7 @@ const CartItems = () => {
           <hr />
           <div className="total item-total">
             <h3>total</h3>
-            <h3>{getCartTotal()}</h3>
+            <h3>${getCartTotal()}</h3>
           </div>
           <hr />
           <button>PROCEED TO CHECKOUT</button>

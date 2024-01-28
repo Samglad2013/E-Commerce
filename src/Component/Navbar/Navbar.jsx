@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-import "./Navbar.css";
 import { Link, Outlet } from "react-router-dom";
 import logo from "../Assest/logo.png";
 import cart_icon from "../Assest/cart_icon.png";
@@ -15,7 +14,7 @@ const Navbar = () => {
             <img src={logo} alt=""></img>
           </Link>
 
-          <p>Shop@Gladys</p>
+          <Link to="/" className="title"><p>Shop@Gladys</p></Link>
         </div>
         <ul className="nav_menu">
           <li>
@@ -45,7 +44,7 @@ const Navbar = () => {
             <button>Login</button>
           </Link>
           <Link to="/cart">
-            <img src={cart_icon} alt=""></img>
+            <img className="icon" src={cart_icon} alt=""></img>
           </Link>
           <div className="nav_cart_count">{cartItemsTotal()}</div>
         </div>

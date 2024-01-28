@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import star_icon from "../Assest/star_icon.png";
 import star_dull_icon from "../Assest/star_dull_icon.png";
-import "./ProductDisplay.css";
 import { Link } from "react-router-dom";
 import { ShopContext } from "../../Context/ShopContext";
 const ProductDisplay = (props) => {

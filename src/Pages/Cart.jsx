@@ -1,5 +1,6 @@
-import React from "react";
+import React, {useContext} from "react";
 import CartItems from "../Component/CartItems/CartItems";
+import { ShopContext } from "../Context/ShopContext";
 
 const Cart = () => {
   const { cartItems } = useContext(ShopContext);
@@ -7,7 +8,7 @@ const Cart = () => {
     (quantity) => quantity === 0
   );
 
-  return <div>{isCartEmpty ? <p>Your cart is empty</p> : <CartItems />}</div>;
+  return <div>{isCartEmpty ? <p className="cart-alert center">Your cart is empty</p> : <CartItems />}</div>;
 };
 
 export default Cart;
