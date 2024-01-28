@@ -1,10 +1,8 @@
 import React from "react";
-import "./Item.css";
 import { Link } from "react-router-dom";
 
 const Item = (props) => {
   return (
-    <div className="container">
       <div className="item">
         <div className="image">
           <Link to={`/product/${props.id}`}>
@@ -21,7 +19,6 @@ const Item = (props) => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 

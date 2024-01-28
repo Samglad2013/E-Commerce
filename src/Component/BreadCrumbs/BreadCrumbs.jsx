@@ -1,6 +1,6 @@
 import React from "react";
 import arrow_icon from "../Assest/arrow_icon.png";
-import "./BreadCrumbs.css";
+
 
 const BreadCrumbs = (props) => {
   const { category, name } = props.product;

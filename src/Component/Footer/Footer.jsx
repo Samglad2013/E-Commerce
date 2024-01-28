@@ -3,7 +3,6 @@ import logo from "../Assest/logo.png";
 import instagram from "../Assest/instagram_icon.png";
 import pinterest from "../Assest/pinterest_icon.png";
 import whatsapp from "../Assest/whatsapp_icon.png";
-import "./Footer.css";
 
 const Footer = () => {
   return (
